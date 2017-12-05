@@ -6095,7 +6095,6 @@ ChannelerPic::     INCBIN "pic/trainer/channeler.pic"
 AgathaPic::        INCBIN "pic/trainer/agatha.pic"
 LancePic::         INCBIN "pic/trainer/lance.pic"
 
-	ds $355
 
 INCLUDE "data/mapHeaders/tradecenter.asm"
 INCLUDE "scripts/tradecenter.asm"

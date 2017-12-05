@@ -1508,3 +1508,12 @@ _VictreebelDexEntry::
 	next "from there"
 	dex
 
+_BlisseyDexEntry::
+	text "A rare and elusive"
+	next "#MON that is"
+	next "said to bring"
+
+	page "happiness to those"
+	next "who manage to get"
+	next "it"
+	dex

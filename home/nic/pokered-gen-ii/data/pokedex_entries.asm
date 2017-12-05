@@ -157,8 +157,6 @@ dw BlisseyDexEntry
 ; weight in pounds
 ; text entry
 
-; I readded my comment - LittlemanSMG
-
 RhydonDexEntry:
 	db "DRILL@"
 	db 6,3
@@ -1219,6 +1217,6 @@ VictreebelDexEntry:
 BlisseyDexEntry:
     db "HAPPINESS@"
 	db 4,11
-	db 103
+	dw 1031
 	TX_FAR _BlisseyDexEntry
 	db "@"

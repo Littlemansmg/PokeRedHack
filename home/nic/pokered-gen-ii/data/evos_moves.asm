@@ -647,6 +647,7 @@ Mon075_EvosMoves:
 Mon113_EvosMoves:
 ;CHANSEY
 ;Evolutions
+db EV_ITEM,MOON_STONE,1,BLISSEY
 	db 0
 ;Learnset
 	db 24,SING

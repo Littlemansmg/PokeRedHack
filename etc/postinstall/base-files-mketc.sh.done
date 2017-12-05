@@ -6,14 +6,14 @@
 # with this software. 
 # If not, see <http://creativecommons.org/publicdomain/zero/1.0/>. 
 
-# base-files version 4.2-4
+# base-files version 4.3-2
 
 # Create symbolic links from some /etc files to the Windows equivalents
 # Set perms to /tmp directory
 
 FILES="hosts protocols services networks"
 OSNAME="$(/usr/bin/uname -s)"
-WINETC="$(/usr/bin/cygpath -S -u)/drivers/etc"
+WINETC="$(/usr/bin/cygpath -S -U)/drivers/etc"
 
 if [ ! -d "${WINETC}" ]; then
   echo "Directory ${WINETC} does not exist; exiting" >&2

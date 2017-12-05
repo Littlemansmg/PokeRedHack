@@ -1,5 +1,5 @@
 last-cache
-	C:\Users\nic\Downloads
+	C:\Users\sgoes\Downloads
 mirrors-lst
 	http://cygwin.mirror.constant.com/;cygwin.mirror.constant.com;United States;New Jersey
 	http://cygwin.mirrors.hoobly.com/;cygwin.mirrors.hoobly.com;United States;Pennsylvania
@@ -9,8 +9,6 @@ mirrors-lst
 	http://www.pirbot.com/mirrors/cygwin/;www.pirbot.com;Europe;Switzerland
 	https://www.singleboersen.com/mirror/cygwin/;www.singleboersen.com;Europe;Germany
 	http://cygwin.skazkaforyou.com/;cygwin.skazkaforyou.com;Canada;Quebec
-	ftp://mirrors.xmission.com/cygwin/;mirrors.xmission.com;United States;Utah
-	http://mirrors.xmission.com/cygwin/;mirrors.xmission.com;United States;Utah
 	http://mirror.clarkson.edu/cygwin/;mirror.clarkson.edu;United States;New York
 	http://mirror.rit.edu/cygwin/;mirror.rit.edu;United States;New York
 	http://mirror.cs.vt.edu/pub/cygwin/cygwin/;mirror.cs.vt.edu;United States;Virginia
@@ -54,7 +52,6 @@ mirrors-lst
 	http://mirror.csclub.uwaterloo.ca/cygwin/;mirror.csclub.uwaterloo.ca;Canada;Ontario
 	ftp://mirror.switch.ch/mirror/cygwin/;mirror.switch.ch;Europe;Switzerland
 	http://mirror.switch.ch/ftp/mirror/cygwin/;mirror.switch.ch;Europe;Switzerland
-	http://mirrors.ustc.edu.cn/cygwin/;mirrors.ustc.edu.cn;Asia;China
 	ftp://ftp.fau.de/cygwin/;ftp.fau.de;Europe;Germany
 	http://ftp.fau.de/cygwin/;ftp.fau.de;Europe;Germany
 	http://www.gutscheinrausch.de/mirror/cygwin/;www.gutscheinrausch.de;Europe;Germany
@@ -109,10 +106,8 @@ mirrors-lst
 	http://ftp.yzu.edu.tw/cygwin/;ftp.yzu.edu.tw;Asia;Taiwan
 	http://mirror.vinahost.vn/cygwin/;mirror.vinahost.vn;Asia;Vietnam
 	ftp://ftp.is.co.za/mirrors/cygwin/;ftp.is.co.za;Africa;South Africa
-chooser_window_settings
-	44,2,3,4294935296,4294935296,4294967295,4294967295,410,184,956,584
 last-mirror
-	http://cygwin.mirrors.hoobly.com/
+	http://cygwin.mirror.constant.com/
 net-method
 	Direct
 last-action

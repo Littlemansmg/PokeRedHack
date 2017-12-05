@@ -5,7 +5,7 @@
 # with this software.
 # If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 
-# base-files version 4.2-4
+# base-files version 4.3-2
 
 # /etc/profile: executed by the command interpreter for login shells.
 
@@ -33,10 +33,19 @@ if [ -z "${PROFILEREAD+true}" ] ; then
   # To learn more about startup files, refer to your shell's man page.
 
   : ${ORIGINAL_PATH=${PATH}}
-  if [ ${CYGWIN_NOWINPATH-addwinpath} = "addwinpath" ] ; then
-    PATH="/usr/local/bin:/usr/bin${PATH:+:${PATH}}"
-  else
-    PATH="/usr/local/bin:/usr/bin"
+  # setting CYGWIN_USEWINPATH non-empty in the system variables
+  # assumes that you've already set up PATH so that Cygwin works
+  # correctly -- no further alteration is done
+  if [ ${CYGWIN_USEWINPATH-nopathprepend} ] ; then
+    # setting CYGWIN_NOWINPATH non-empty in the system variables
+    # prevents use of the existing PATH and a clean PATH just for
+    # Cygwin is set up -- you need to add any extra path components
+    # you need in your personal startup files
+    if [ ${CYGWIN_NOWINPATH-addwinpath} = "addwinpath" ] ; then
+	PATH="/usr/local/bin:/usr/bin${PATH:+:${PATH}}"
+    else
+	PATH="/usr/local/bin:/usr/bin"
+    fi
   fi
 
 # see https://cygwin.com/ml/cygwin/2014-05/msg00352.html
@@ -138,7 +147,7 @@ profile_d sh
 if [ ! "x${BASH_VERSION}" = "x"  ]; then
   [ -f "/etc/bash.bashrc" ] && . "/etc/bash.bashrc"
 elif [ ! "x${KSH_VERSION}" = "x" ]; then
-  typeset -l HOSTNAME="$(/usr/bin/hostname)"
+  typeset -l HOSTNAME
   [ "${PS1-null}" = "null" ] || PS1=$(print '\033]0;${PWD}\n\033[32m${USER}@${HOSTNAME} \033[33m${PWD/${HOME}/~}\033[0m\n$ ')
 elif [ ! "x${ZSH_VERSION}" = "x" ]; then
   # zsh is in shell compatibility mode here, so we probably shouldn't do this

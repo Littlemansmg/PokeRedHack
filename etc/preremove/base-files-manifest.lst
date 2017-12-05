@@ -1,3 +1,4 @@
+Cygwin.bat
 etc/profile.d/lang.sh
 etc/profile.d/lang.csh
 etc/profile.d/tzset.sh

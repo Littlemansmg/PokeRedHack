@@ -326,3 +326,28 @@
 2017/12/01 21:34:32 Changing gid to Administrators
 2017/12/01 21:35:03 note: Installation Complete
 2017/12/01 21:35:03 Ending cygwin install
+2017/12/04 23:38:57 Starting cygwin install, version 2.882
+2017/12/04 23:38:57 User has backup/restore rights
+2017/12/04 23:38:57 Current Directory: C:\Users\sgoes\Downloads
+2017/12/04 23:38:57 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2017/12/04 23:39:04 source: network install
+2017/12/04 23:47:46 root: C:\Users\sgoes\Documents\GitHub\PokeRedHack system
+2017/12/04 23:47:48 Selected local directory: C:\Users\sgoes\Downloads
+2017/12/04 23:47:50 net: Direct
+2017/12/04 23:47:52 site: http://cygwin.mirror.constant.com/
+2017/12/04 23:50:39 Downloaded C:\Users\sgoes\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/base-files/base-files-4.3-2.tar.xz
+2017/12/04 23:50:40 running: C:\Users\sgoes\Documents\GitHub\PokeRedHack\bin\bash.exe --norc --noprofile "/etc/preremove/base-files.sh"
+2017/12/04 23:50:42 abnormal exit: exit code=2
+2017/12/04 23:50:42 Uninstalling base-files
+2017/12/04 23:50:42 Extracting from file://C:\Users\sgoes\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/base-files/base-files-4.3-2.tar.xz
+2017/12/04 23:50:42 Changing gid back to original
+2017/12/04 23:50:42 running: C:\Users\sgoes\Documents\GitHub\PokeRedHack\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2017/12/04 23:50:42 abnormal exit: exit code=2
+2017/12/04 23:50:42 running: C:\Users\sgoes\Documents\GitHub\PokeRedHack\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2017/12/04 23:50:42 abnormal exit: exit code=2
+2017/12/04 23:50:42 running: C:\Users\sgoes\Documents\GitHub\PokeRedHack\bin\bash.exe --norc --noprofile "/etc/postinstall/base-files-mketc.sh"
+2017/12/04 23:50:42 running: C:\Users\sgoes\Documents\GitHub\PokeRedHack\bin\bash.exe --norc --noprofile "/etc/postinstall/base-files-profile.sh"
+2017/12/04 23:50:42 running: C:\Users\sgoes\Documents\GitHub\PokeRedHack\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
+2017/12/04 23:50:42 Changing gid to Administrators
+2017/12/04 23:50:49 note: Installation Complete
+2017/12/04 23:50:49 Ending cygwin install

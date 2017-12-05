@@ -12,6 +12,30 @@ TODO:
 
 Change Log
 ----------
+4.3-2 (bugfix/feature release)
+    * etc/defaults/etc/skel/.bashrc: Remove outdated comments on
+      completion and mention the bash_completion package as a
+      prerequisite.  See cygwin.com/ml/cygwin/2016-03/msg00207.html
+    * etc/postinstall/base-files-profile.sh: If a non-default file is
+      kept, show a diff to the default version if /bin/diff is
+      installed and the target is a plain file.
+    * etc/postinstall/base-files-profile.sh: Do not touch file before
+      installing so the modes are kept intact, like cygport is already
+      doing for some time.  Reported by Christian Franke, see
+      cygwin.com/ml/cygwin/2016-09/msg00059.html
+4.3-1 (feature release)
+    * Cygwin.bat: Add to base-files.  This version is independent of
+      the actual install path, see:
+      cygwin.com/ml/cygwin/2016-08/msg00617.html
+    * etc/defaults/etc/profile: Allow the use of the unaltered
+      existing system PATH by setting the system variable
+      CYGWIN_USEWINPATH.
+    * etc/defaults/etc/profile: avoid second invocation of
+      /usr/bin/hostname.  Reported by Helmut Karlowski, see
+      cygwin.com/ml/cygwin/2015-12/msg00080.html
+    * etc/postinstall/base-files-mketc.sh (WINETC): Use /proc/cygdrive
+      prefixed path which keeps working even if the user changes the
+      /cygdrive prefix after installation.
 4.2-4 (bugfix release)
     * etc/postinstall/base-files-mketc.sh: Windows only uses 8 characters
       for files in the WINETC directory.  Check if the symlink target

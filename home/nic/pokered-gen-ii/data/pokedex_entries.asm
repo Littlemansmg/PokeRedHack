@@ -157,6 +157,8 @@ dw BlisseyDexEntry
 ; weight in pounds
 ; text entry
 
+; This is a comment - LittlemanSMG
+
 RhydonDexEntry:
 	db "DRILL@"
 	db 6,3

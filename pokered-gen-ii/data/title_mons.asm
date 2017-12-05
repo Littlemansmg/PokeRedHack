@@ -1,9 +1,9 @@
 TitleMons:
 ; mons on the title screen are randomly chosen from here
 IF DEF(_RED)
-	db CHARMANDER
-	db SQUIRTLE
-	db BULBASAUR
+	db CHARMELEON
+	db BLASTOISE
+	db VENUSAUR
 	db WEEDLE
 	db NIDORAN_M
 	db SCYTHER

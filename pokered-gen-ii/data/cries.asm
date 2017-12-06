@@ -152,3 +152,4 @@ db $0F, $3C, $C0; Dragonite
 db $1E, $99, $FF; Mewtwo
 db $1E, $EE, $FF; Mew
 db $09, $80, $40; Blissey 
+db $23, $22, $FF; Bellossom

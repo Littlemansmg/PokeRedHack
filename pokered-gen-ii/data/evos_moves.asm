@@ -151,6 +151,7 @@ dw Mon149_EvosMoves
 dw Mon150_EvosMoves
 dw Mon151_EvosMoves
 dw Mon152_EvosMoves
+dw Mon153_EvosMoves
 
 Mon112_EvosMoves:
 ;RHYDON
@@ -545,12 +546,13 @@ Mon152_EvosMoves:
 	db 0
 
 Mon153_EvosMoves:
-;MISSINGNO
+;BELLOSSOM
 ;Evolutions
 	db 0
 ;Learnset
-	db 0
-
+	db 55, SOLARBEAM
+    db 0
+	
 Mon058_EvosMoves:
 ;GROWLITHE
 ;Evolutions

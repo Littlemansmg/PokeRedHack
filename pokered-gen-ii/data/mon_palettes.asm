@@ -151,7 +151,8 @@ MonsterPalettes:
 	db PAL_DRAGONITE
 	db PAL_MEWTWO
 	db PAL_MEW
-	DB PAL_CHANSEY
+	db PAL_CHANSEY
+	db PAL_VILEPLUME
 TrainerPalettes: ; 726ba (1c:66ba)
 	db PAL_HERO
 	db PAL_YOUNGSTER

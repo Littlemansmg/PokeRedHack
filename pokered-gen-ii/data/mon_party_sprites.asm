@@ -74,5 +74,5 @@ MonPartyData:
 	dn SPRITE_BIRD_M, SPRITE_BIRD_M			;Zapdos/Moltres
 	dn SPRITE_SNAKE, SPRITE_SNAKE			;Dratini/Dragonair
 	dn SPRITE_SNAKE, SPRITE_MON				;Dragonite/Mewtwo
-	dn SPRITE_MON, SPRITE_FAIRY						;Mew/Blissey
-    dn SPRITE_GRASS, 0                      ;Bellossom/Padding
+	dn SPRITE_MON, SPRITE_FAIRY				;Mew/Blissey
+    dn SPRITE_GRASS, SPRITE_BUG             ;Bellossom/Yanma

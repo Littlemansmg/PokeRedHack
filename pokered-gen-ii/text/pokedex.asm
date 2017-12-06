@@ -1527,3 +1527,13 @@ _BellossomDexEntry::
 	next "head is heavy and"
 	next "hard to hold up"
 	dex	
+	
+_YanmaDexEntry::
+    text "It can see in all" 
+    next "directions without"
+    next "moving its eyes"
+
+    page "It can generate"
+    next "shockwaves when"
+    next "buzzing its wings"
+    dex	

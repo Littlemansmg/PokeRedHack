@@ -248,12 +248,12 @@ DefaultNamesPlayerList:
 	db "NEW NAME@"
 	db "RED@"
 	db "ASH@"
-	db "JACK@"
+	db "NNRD@"
 DefaultNamesRivalList:
 	db "NEW NAME@"
 	db "BLUE@"
 	db "GARY@"
-	db "JOHN@"
+	db "NICK@"
 ENDC
 IF DEF(_BLUE)
 DefaultNamesPlayerList:

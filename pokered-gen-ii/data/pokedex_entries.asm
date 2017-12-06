@@ -151,6 +151,7 @@ dw DragoniteDexEntry
 dw MewtwoDexEntry
 dw MewDexEntry
 dw BlisseyDexEntry
+dw BellossomDexEntry
 
 ; string: species name
 ; height in feet, inches
@@ -1219,4 +1220,11 @@ BlisseyDexEntry:
 	db 4,11
 	dw 1031
 	TX_FAR _BlisseyDexEntry
+	db "@"
+	
+BellossomDexEntry:
+    db "FLOWER@"
+	db 1,04
+	dw 128
+	TX_FAR _BellossomDexEntry
 	db "@"

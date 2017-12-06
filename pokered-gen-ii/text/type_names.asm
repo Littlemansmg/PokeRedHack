@@ -9,18 +9,18 @@ TypeNames:
 	dw .Bird
 	dw .Bug
 	dw .Ghost
-
-	dw .Normal
-	dw .Normal
-	dw .Normal
-	dw .Normal
-	dw .Normal
-	dw .Normal
-	dw .Normal
-	dw .Normal
-	dw .Normal
-	dw .Normal
-	dw .Normal
+	dw .Steel
+	
+	dw .Normal ; Unused
+	dw .Normal ; Unused
+	dw .Normal ; Unused
+	dw .Normal ; Unused
+	dw .Normal ; Unused
+	dw .Normal ; Unused
+	dw .Normal ; Unused
+	dw .Normal ; Unused
+	dw .Normal ; Unused
+	dw .Normal ; Unused
 
 	dw .Fire
 	dw .Water
@@ -29,6 +29,7 @@ TypeNames:
 	dw .Psychic
 	dw .Ice
 	dw .Dragon
+	dw .Dark
 
 .Normal:   db "NORMAL@"
 .Fighting: db "FIGHTING@"
@@ -46,3 +47,5 @@ TypeNames:
 .Bug:      db "BUG@"
 .Ghost:    db "GHOST@"
 .Dragon:   db "DRAGON@"
+.Steel:    db "STEEL@"
+.Dark:     db "DARK@"

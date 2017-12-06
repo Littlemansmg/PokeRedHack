@@ -1,7 +1,7 @@
 _MomWakeUpText::
-	text "MOM: Right."
-	line "All boys leave"
-	cont "home some day."
+	text "MOM: Mod."
+	line "Get out."
+	cont "You are useless."
 	cont "It said so on TV."
 
 	para "PROF.OAK, next"

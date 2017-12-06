@@ -1517,3 +1517,13 @@ _BlisseyDexEntry::
 	next "who manage to get"
 	next "it"
 	dex
+	
+_BellossomDexEntry::
+	text "The larger its"
+	next "petals, the more"
+	next "toxic pollen it"
+
+	page "contains. Its big"
+	next "head is heavy and"
+	next "hard to hold up"
+	dex	

@@ -152,7 +152,7 @@ dw MewtwoDexEntry
 dw MewDexEntry
 dw BlisseyDexEntry
 dw BellossomDexEntry
-
+dw YanmaDexEntry
 ; string: species name
 ; height in feet, inches
 ; weight in pounds
@@ -1227,4 +1227,11 @@ BellossomDexEntry:
 	db 1,04
 	dw 128
 	TX_FAR _BellossomDexEntry
+	db "@"
+	
+YanmaDexEntry:
+    db "CLEAR WING@"	
+	db 3,11
+	dw 838
+	TX_FAR _YanmaDexEntry
 	db "@"

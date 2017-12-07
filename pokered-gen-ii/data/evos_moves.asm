@@ -152,6 +152,7 @@ dw Mon150_EvosMoves
 dw Mon151_EvosMoves
 dw Mon152_EvosMoves
 dw Mon153_EvosMoves
+dw Mon154_EvosMoves
 
 Mon112_EvosMoves:
 ;RHYDON
@@ -774,10 +775,17 @@ Mon076_EvosMoves:
 	db 0
 
 Mon154_EvosMoves:
-;MISSINGNO
+;Yanma
 ;Evolutions
 	db 0
 ;Learnset
+    db 7,QUICK_ATTACK
+	db 13,DOUBLE_TEAM
+	db 19,SONICBOOM
+	db 25,SWIFT
+	db 31,SUPERSONIC
+	db 37,WING_ATTACK
+	db 43,SCREECH
 	db 0
 
 Mon126_EvosMoves:

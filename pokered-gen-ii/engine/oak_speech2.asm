@@ -208,14 +208,14 @@ DefaultNamesPlayer:
 	db   "NEW NAME"
 	next "BLUE"
 	next "GARY"
-	next "JOHN"
+	next "NICK"
 	db   "@"
 
 DefaultNamesRival:
 	db   "NEW NAME"
 	next "RED"
 	next "ASH"
-	next "JACK"
+	next "NNRD"
 	db   "@"
 ENDC
 
@@ -260,12 +260,12 @@ DefaultNamesPlayerList:
 	db "NEW NAME@"
 	db "BLUE@"
 	db "GARY@"
-	db "JOHN@"
+	db "NICK@"
 DefaultNamesRivalList:
 	db "NEW NAME@"
 	db "RED@"
 	db "ASH@"
-	db "JACK@"
+	db "NNRD@"
 ENDC
 
 TextTerminator_6b20:

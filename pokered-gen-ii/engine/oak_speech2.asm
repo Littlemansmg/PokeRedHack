@@ -190,15 +190,15 @@ DisplayIntroNameTextBox:
 IF DEF(_RED)
 DefaultNamesPlayer:
 	db   "NEW NAME"
-	next "RED"
-	next "ASH"
+	next "CORE"
+	next "SAD"
 	next "NNRD"
 	db   "@"
 
 DefaultNamesRival:
 	db   "NEW NAME"
-	next "BLUE"
-	next "GARY"
+	next "GREEN"
+	next "GERY"
 	next "NICK"
 	db   "@"
 ENDC
@@ -246,13 +246,13 @@ GetDefaultName:
 IF DEF(_RED)
 DefaultNamesPlayerList:
 	db "NEW NAME@"
-	db "RED@"
-	db "ASH@"
+	db "CORE@"
+	db "SAD@"
 	db "NNRD@"
 DefaultNamesRivalList:
 	db "NEW NAME@"
-	db "BLUE@"
-	db "GARY@"
+	db "GREEN@"
+	db "GERY@"
 	db "NICK@"
 ENDC
 IF DEF(_BLUE)

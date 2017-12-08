@@ -153,6 +153,7 @@ dw Mon151_EvosMoves
 dw Mon152_EvosMoves
 dw Mon153_EvosMoves
 dw Mon154_EvosMoves
+dw Mon155_EvosMoves
 
 Mon112_EvosMoves:
 ;RHYDON
@@ -802,10 +803,16 @@ Mon126_EvosMoves:
 	db 0
 
 Mon155_EvosMoves:
-;MISSINGNO
+;CROBAT
 ;Evolutions
 	db 0
 ;Learnset
+    db 6,SUPERSONIC
+	db 12,BITE
+	db 19,CONFUSE_RAY
+	db 30,WING_ATTACK
+	db 42,SUPER_FANG
+	db 55,HAZE
 	db 0
 
 Mon125_EvosMoves:
@@ -1645,7 +1652,7 @@ Mon097_EvosMoves:
 Mon042_EvosMoves:
 ;GOLBAT
 ;Evolutions
-	db 0
+	db EV_ITEM,MOON_STONE,1,CROBAT
 ;Learnset
 	db 10,SUPERSONIC
 	db 15,BITE

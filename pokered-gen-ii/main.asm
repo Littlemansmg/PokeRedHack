@@ -7055,6 +7055,8 @@ BellossomPicFront::   INCBIN "pic/bmon/bellossom.pic"
 BellossomPicBack::    INCBIN "pic/monback/bellossomb.pic"
 YanmaPicFront::       INCBIN "pic/bmon/yanma.pic"
 YanmaPicBack::        INCBIN "pic/monback/yanmab.pic"
+CrobatPicFront::      INCBIN "pic/bmon/crobat.pic"
+CrobatPicBack::       INCBIN "pic/monback/crobatb.pic"
 
 SECTION "bank2F",ROMX,BANK[$2F]
 

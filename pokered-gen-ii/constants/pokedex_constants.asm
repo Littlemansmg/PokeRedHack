@@ -154,4 +154,5 @@ const_value = 1
     const DEX_BLISSEY    ; 152
 	const DEX_BELLOSSOM  ; 153
 	const DEX_YANMA      ; 154
-NUM_POKEMON    EQU 154
+	const DEX_CROBAT     ; 155
+NUM_POKEMON    EQU 155

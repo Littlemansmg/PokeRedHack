@@ -1537,3 +1537,13 @@ _YanmaDexEntry::
     next "shockwaves when"
     next "buzzing its wings"
     dex	
+	
+_CrobatDexEntry::
+    text "Its hind legs have"
+    next "transformed into"
+    next "a new set of wings"
+
+    page "As a result it is"
+    next "clumsy and awkward"
+    next "on the ground"	
+	dex

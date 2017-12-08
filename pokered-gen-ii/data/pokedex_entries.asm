@@ -153,6 +153,7 @@ dw MewDexEntry
 dw BlisseyDexEntry
 dw BellossomDexEntry
 dw YanmaDexEntry
+dw CrobatDexEntry
 ; string: species name
 ; height in feet, inches
 ; weight in pounds
@@ -1235,3 +1236,10 @@ YanmaDexEntry:
 	dw 838
 	TX_FAR _YanmaDexEntry
 	db "@"
+	
+CrobatDexEntry:
+    db "BAT@"
+    db 5,11
+    dw 1563
+    TX_FAR _CrobatDexEntry
+    db "@"	

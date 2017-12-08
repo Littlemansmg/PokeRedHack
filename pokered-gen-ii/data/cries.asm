@@ -154,3 +154,4 @@ db $1E, $EE, $FF; Mew
 db $09, $80, $40; Blissey 
 db $23, $22, $FF; Bellossom
 db $13, $60, $80; Yanma
+db $1D, $FA, $80; Crobat

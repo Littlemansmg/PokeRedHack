@@ -76,3 +76,4 @@ MonPartyData:
 	dn SPRITE_SNAKE, SPRITE_MON				;Dragonite/Mewtwo
 	dn SPRITE_MON, SPRITE_FAIRY				;Mew/Blissey
     dn SPRITE_GRASS, SPRITE_BUG             ;Bellossom/Yanma
+	dn SPRITE_MON, 0                        ;Crobat/Padding

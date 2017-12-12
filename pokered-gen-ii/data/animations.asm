@@ -214,6 +214,7 @@ ZigZagScreenAnim:
 	db $FF
 
 PoundAnim:
+CrunchAnim:
 StruggleAnim:
 	db $08,$00,$01
 	db $FF

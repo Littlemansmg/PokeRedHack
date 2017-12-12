@@ -2529,6 +2529,7 @@ MoveSoundTable:
 	db SFX_NOT_VERY_EFFECTIVE,$01,$ff ; SLASH
 	db SFX_BATTLE_2C,         $d8,$04 ; SUBSTITUTE
 	db SFX_BATTLE_0B,         $00,$80 ; STRUGGLE
+	db SFX_CRUNCH,            $00,$80 ; CRUNCH
 	db SFX_BATTLE_0B,         $00,$80
 
 CopyPicTiles:

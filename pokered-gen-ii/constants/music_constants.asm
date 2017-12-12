@@ -255,6 +255,7 @@ ENDM
 	music_const SFX_BATTLE_35,          SFX_Battle_35
 	music_const SFX_BATTLE_36,          SFX_Battle_36
 	music_const SFX_SILPH_SCOPE,        SFX_Silph_Scope
+	music_const SFX_CRUNCH,             SFX_Crunch
 
 	; AUDIO_3
 	music_const SFX_INTRO_LUNGE,        SFX_Intro_Lunge

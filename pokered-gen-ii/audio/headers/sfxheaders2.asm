@@ -704,3 +704,7 @@ SFX_Battle_36::
 SFX_Silph_Scope::
 	db CH4
 	dw SFX_Silph_Scope_Ch1
+
+SFX_Crunch::
+	db CH7
+	dw SFX_Pound_Ch1

@@ -15,7 +15,7 @@ dw PoliwhirlPicBack
 db BUBBLE
 db HYPNOSIS
 db WATER_GUN
-db 0
+db CRUNCH
 db 3 ; growth rate
 ; learnset
 	tmlearn 1,5,6,8

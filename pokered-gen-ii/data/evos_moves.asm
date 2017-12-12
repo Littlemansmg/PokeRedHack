@@ -154,6 +154,7 @@ dw Mon152_EvosMoves
 dw Mon153_EvosMoves
 dw Mon154_EvosMoves
 dw Mon155_EvosMoves
+dw Mon156_EvosMoves
 
 Mon112_EvosMoves:
 ;RHYDON
@@ -854,10 +855,12 @@ Mon109_EvosMoves:
 	db 0
 
 Mon156_EvosMoves:
-;MISSINGNO
+;POLITOED
 ;Evolutions
 	db 0
 ;Learnset
+    db 35,BUBBLEBEAM
+	db 53,AMNESIA
 	db 0
 
 Mon056_EvosMoves:
@@ -1444,6 +1447,7 @@ Mon061_EvosMoves:
 ;POLIWHIRL
 ;Evolutions
 	db EV_ITEM,WATER_STONE,1,POLIWRATH
+	db EV_ITEM,KINGS_ROCK,1,POLITOED
 	db 0
 ;Learnset
 	db 16,HYPNOSIS
@@ -2251,6 +2255,7 @@ Mon044_EvosMoves:
 ;GLOOM
 ;Evolutions
 	db EV_ITEM,LEAF_STONE,1,VILEPLUME
+	db EV_ITEM,SUN_STONE,1,BELLOSSOM
 	db 0
 ;Learnset
 	db 15,POISONPOWDER

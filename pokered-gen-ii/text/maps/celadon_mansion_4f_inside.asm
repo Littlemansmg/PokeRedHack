@@ -1,10 +1,9 @@
 _CeladonMansion5Text1::
-	text "I know everything"
-	line "about the world"
-	cont "of #MON in"
-	cont "your GAME BOY!"
+	text "DEX: Hi, Mod!"
+	line "You can have this"
+	cont "Eevee if you want."
 
-	para "Get together with"
-	line "your friends and"
-	cont "trade #MON!"
+	para "Don't ask where I"
+	line "get them, it's a"
+	cont "secret!"
 	done

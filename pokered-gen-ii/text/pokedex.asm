@@ -1547,3 +1547,13 @@ _CrobatDexEntry::
     next "clumsy and awkward"
     next "on the ground"	
 	dex
+	
+_PolitoedDexEntry::
+    text "It snatches prey"
+    next "with its sticky,"
+    next "long tongue"
+
+    page "It becomes unable"
+    next "to hop if it eats"
+    next "prey too large"
+    dex	

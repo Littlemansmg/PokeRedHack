@@ -3,7 +3,7 @@
 
 ; Viridian
 ViridianCashierText::
-	TX_MART POKE_BALL, ANTIDOTE, PARLYZ_HEAL, BURN_HEAL
+	TX_MART KINGS_ROCK, METAL_COAT, DRAGON_SCALE, SUN_STONE
 
 ; Pewter
 PewterCashierText::

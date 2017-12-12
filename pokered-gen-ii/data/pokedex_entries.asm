@@ -154,6 +154,7 @@ dw BlisseyDexEntry
 dw BellossomDexEntry
 dw YanmaDexEntry
 dw CrobatDexEntry
+dw PolitoedDexEntry
 ; string: species name
 ; height in feet, inches
 ; weight in pounds
@@ -1242,4 +1243,11 @@ CrobatDexEntry:
     db 5,11
     dw 1563
     TX_FAR _CrobatDexEntry
+    db "@"
+
+PolitoedDexEntry:
+    db "FROG@"
+    db 3,07
+    dw 747
+    TX_FAR _PolitoedDexEntry
     db "@"	

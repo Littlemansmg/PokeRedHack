@@ -8,13 +8,14 @@ SeafoamIslands5Object:
 	db $4, $19, $2, SEAFOAM_ISLANDS_4
 
 	db $2 ; signs
-	db $f, $9, $4 ; SeafoamIslands5Text4
-	db $1, $17, $5 ; SeafoamIslands5Text5
+	db $f, $9, $5 ; SeafoamIslands5Text4
+	db $1, $17, $6 ; SeafoamIslands5Text5
 
-	db $3 ; objects
+	db $4 ; objects
 	object SPRITE_BOULDER, $4, $f, STAY, NONE, $1 ; person
 	object SPRITE_BOULDER, $5, $f, STAY, NONE, $2 ; person
 	object SPRITE_BIRD, $6, $1, STAY, DOWN, $3, ARTICUNO, 50
+	object SPRITE_BALL, $17, $15, STAY, NONE, $4, DRAGON_SCALE
 
 	; warp-to
 	EVENT_DISP SEAFOAM_ISLANDS_5_WIDTH, $11, $14 ; SEAFOAM_ISLANDS_4

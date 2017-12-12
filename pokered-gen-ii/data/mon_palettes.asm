@@ -155,6 +155,7 @@ MonsterPalettes:
 	db PAL_VILEPLUME
 	db PAL_BUTTERFREE
 	db PAL_GOLBAT
+	db PAL_POLIWHIRL
 TrainerPalettes: ; 726ba (1c:66ba)
 	db PAL_HERO
 	db PAL_YOUNGSTER

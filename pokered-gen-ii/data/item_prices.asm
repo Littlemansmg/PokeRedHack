@@ -96,3 +96,8 @@ ItemPrices:
 	money 0     ; FLOOR_10F
 	money 0     ; FLOOR_11F
 	money 0     ; FLOOR_B4F
+	money 0     ; SUN_STONE
+	money 0     ; KINGS_ROCK
+	money 0     ; METAL_COAT
+	money 0     ; UPGRADE
+	money 0     ; DRAGON_SCALE

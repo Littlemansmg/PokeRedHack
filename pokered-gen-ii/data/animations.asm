@@ -202,6 +202,7 @@ AttackAnimationPointers:
 	dw ThrowRockAnim
 	dw ThrowBaitAnim
 	dw ZigZagScreenAnim
+	dw CrunchAnim
 
 ; each animation is a list of subanimations and special effects
 ; if first byte < $56

@@ -12,10 +12,10 @@ INCBIN "pic/bmon/poliwhirl.pic",0,1 ; 66, sprite dimensions
 dw PoliwhirlPicFront
 dw PoliwhirlPicBack
 ; attacks known at lvl 0
-db BUBBLE
-db HYPNOSIS
-db WATER_GUN
-db CRUNCH
+db TWISTER
+db FAINT_ATTACK
+db POWDER_SNOW
+db SPARK
 db 3 ; growth rate
 ; learnset
 	tmlearn 1,5,6,8

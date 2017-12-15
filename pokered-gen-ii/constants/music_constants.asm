@@ -256,6 +256,12 @@ ENDM
 	music_const SFX_BATTLE_36,          SFX_Battle_36
 	music_const SFX_SILPH_SCOPE,        SFX_Silph_Scope
 	music_const SFX_CRUNCH,             SFX_Crunch
+	music_const SFX_TWISTER,            SFX_Twister
+	music_const SFX_FAINT_ATTACK,       SFX_Faint_Attack
+	music_const SFX_POWDER_SNOW,        SFX_Powder_Snow
+	music_const SFX_SPARK,              SFX_Spark
+	;music_const SFX_SYNTHESIS,          SFX_Synthesis
+	;music_const SFX_MILK_DRINK,         SFX_Milk_Drink
 
 	; AUDIO_3
 	music_const SFX_INTRO_LUNGE,        SFX_Intro_Lunge

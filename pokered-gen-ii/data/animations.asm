@@ -203,6 +203,12 @@ AttackAnimationPointers:
 	dw ThrowBaitAnim
 	dw ZigZagScreenAnim
 	dw CrunchAnim
+	dw TwisterAnim
+	;dw FaintAttackAnim
+	;dw PowderSnowAnim
+	;dw SparkAnim
+	;dw SynthesisAnim
+	;dw MilkDrinkAnim
 
 ; each animation is a list of subanimations and special effects
 ; if first byte < $56
@@ -216,6 +222,12 @@ ZigZagScreenAnim:
 
 PoundAnim:
 CrunchAnim:
+TwisterAnim:
+FaintAttackAnim:
+PowderSnowAnim:
+SparkAnim:
+;SynthesisAnim:
+;MilkDrinkAnim:
 StruggleAnim:
 	db $08,$00,$01
 	db $FF

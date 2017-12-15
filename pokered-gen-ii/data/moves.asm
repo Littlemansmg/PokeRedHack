@@ -175,5 +175,11 @@ MoveEnd:
 	move SUPER_FANG,   SUPER_FANG_EFFECT,            1, NORMAL,    90, 10
 	move SLASH,        NO_ADDITIONAL_EFFECT,        70, NORMAL,   100, 20
 	move SUBSTITUTE,   SUBSTITUTE_EFFECT,            0, NORMAL,   100, 10
-	move CRUNCH,			 SPECIAL_DOWN_SIDE_EFFECT,    80, DARK,	    100, 15 ;Added Move 80 != 200
+	move CRUNCH,			 SPECIAL_DOWN_SIDE_EFFECT,    80, DARK,	    100, 15 ;Added
+	move TWISTER,      FLINCH_SIDE_EFFECT2,         40, DRAGON,   100, 20 ;Added
+	move FAINT_ATTACK, SWIFT_EFFECT,                60, DARK,     100, 20 ;Added
+  move POWDER_SNOW,  FREEZE_SIDE_EFFECT,          40, ICE,      100, 25 ;Added
+  move SPARK,        PARALYZE_SIDE_EFFECT2,       65, ELECTRIC, 100, 20 ;Added
+	;move SYNTHESIS,    HEAL_EFFECT,                  0, GRASS,    100,  5 ;Added
+	;move MILK_DRINK,   HEAL_EFFECT,                  0, NORMAL,   100, 10	;Added
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,   100, 10 ;???

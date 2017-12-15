@@ -165,6 +165,12 @@ const_value = 1
 	const SLASH        ; a3
 	const SUBSTITUTE   ; a4
 	const CRUNCH			 ; a5
+	const TWISTER      ; a6
+  const FAINT_ATTACK ; a7
+  const POWDER_SNOW  ; a8
+  const SPARK        ; a9
+  ;const SYNTHESIS    ; aa
+  ;const MILK_DRINK   ; ab
 
 NUM_ATTACKS EQU const_value + -1
 

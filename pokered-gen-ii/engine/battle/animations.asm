@@ -2530,6 +2530,12 @@ MoveSoundTable:
 	db SFX_BATTLE_2C,         $d8,$04 ; SUBSTITUTE
 	db SFX_BATTLE_0B,         $00,$80 ; STRUGGLE
 	db SFX_CRUNCH,            $00,$80 ; CRUNCH
+	db SFX_TWISTER,           $00,$80 ; TWISTER
+  db SFX_FAINT_ATTACK,      $00,$80 ; FAINT_ATTACK
+  db SFX_POWDER_SNOW,       $00,$80 ; POWDER_SNOW
+  db SFX_SPARK,             $00,$80 ; SPARK
+  ;db SFX_SYNTHESIS,         $00,$80 ; SYNTHESIS
+  ;db SFX_MILK_DRINK,        $00,$80 ; MILK_DRINK
 	db SFX_BATTLE_0B,         $00,$80
 
 CopyPicTiles:

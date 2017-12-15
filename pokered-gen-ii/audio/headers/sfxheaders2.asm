@@ -708,3 +708,27 @@ SFX_Silph_Scope::
 SFX_Crunch::
 	db CH7
 	dw SFX_Pound_Ch1
+
+SFX_Twister::
+	db CH7
+	dw SFX_Pound_Ch1
+
+SFX_Faint_Attack::
+	db CH7
+	dw SFX_Pound_Ch1
+
+SFX_Powder_Snow::
+	db CH7
+	dw SFX_Pound_Ch1
+
+SFX_Spark::
+	db CH7
+	dw SFX_Pound_Ch1
+
+;SFX_Synthesis::
+	;db CH7
+	;dw SFX_Pound_Ch1
+
+;SFX_Milk_Drink::
+	;db CH7
+	;dw SFX_Pound_Ch1

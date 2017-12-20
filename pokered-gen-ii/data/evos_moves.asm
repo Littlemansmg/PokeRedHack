@@ -155,6 +155,7 @@ dw Mon153_EvosMoves
 dw Mon154_EvosMoves
 dw Mon155_EvosMoves
 dw Mon156_EvosMoves
+dw Mon157_EvosMoves
 
 Mon112_EvosMoves:
 ;RHYDON
@@ -611,6 +612,7 @@ Mon079_EvosMoves:
 ;SLOWPOKE
 ;Evolutions
 	db EV_LEVEL,37,SLOWBRO
+	db EV_ITEM,KINGS_ROCK,1,SLOWKING
 	db 0
 ;Learnset
 	db 18,DISABLE
@@ -915,10 +917,17 @@ Mon128_EvosMoves:
 	db 0
 
 Mon157_EvosMoves:
-;MISSINGNO
+;SLOWKING
 ;Evolutions
 	db 0
 ;Learnset
+    db 6,GROWL
+	db 15,WATER_GUN
+	db 20,CONFUSION
+	db 29,DISABLE
+	db 34,HEADBUTT
+	db 43,AMNESIA
+	db 48,PSYCHIC_M
 	db 0
 
 Mon158_EvosMoves:

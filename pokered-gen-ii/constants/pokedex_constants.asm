@@ -156,4 +156,5 @@ const_value = 1
 	const DEX_YANMA      ; 154
 	const DEX_CROBAT     ; 155
 	const DEX_POLITOED   ; 156
-NUM_POKEMON    EQU 156
+	const DEX_SLOWKING   ; 157
+NUM_POKEMON    EQU 157

@@ -156,3 +156,4 @@ db $23, $22, $FF; Bellossom
 db $13, $60, $80; Yanma
 db $1D, $FA, $80; Crobat
 db $0E, $77, $60; Politoed
+db $1F, $00, $80; Slowking

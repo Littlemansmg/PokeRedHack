@@ -77,3 +77,4 @@ MonPartyData:
 	dn SPRITE_MON, SPRITE_FAIRY				;Mew/Blissey
     dn SPRITE_GRASS, SPRITE_BUG             ;Bellossom/Yanma
 	dn SPRITE_MON, SPRITE_MON               ;Crobat/Politoed
+	dn SPRITE_MON, 0                        ;Slowking/Padding

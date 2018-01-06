@@ -1557,3 +1557,13 @@ _PolitoedDexEntry::
     next "to hop if it eats"
     next "prey too large"
     dex	
+	
+_SlowkingDexEntry::
+    text "When its head was"
+    next "bitten, toxins"
+    next "entered SLOWPOKE's"
+
+	page "head and unlocked"
+    next "an extraordinary"
+    next "power"
+	dex

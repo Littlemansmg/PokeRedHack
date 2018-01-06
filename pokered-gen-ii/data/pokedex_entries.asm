@@ -155,6 +155,7 @@ dw BellossomDexEntry
 dw YanmaDexEntry
 dw CrobatDexEntry
 dw PolitoedDexEntry
+dw SlowkingDexEntry
 ; string: species name
 ; height in feet, inches
 ; weight in pounds
@@ -1250,4 +1251,11 @@ PolitoedDexEntry:
     db 3,07
     dw 747
     TX_FAR _PolitoedDexEntry
+    db "@"	
+
+SlowkingDexEntry:
+    db "ROYAL@"
+    db 6,07
+    dw 1753
+    TX_FAR _SlowkingDexEntry
     db "@"	

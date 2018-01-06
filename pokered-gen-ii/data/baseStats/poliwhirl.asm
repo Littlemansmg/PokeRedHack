@@ -14,8 +14,8 @@ dw PoliwhirlPicBack
 ; attacks known at lvl 0
 db TWISTER
 db FAINT_ATTACK
-db POWDER_SNOW
-db SPARK
+db 0
+db 0
 db 3 ; growth rate
 ; learnset
 	tmlearn 1,5,6,8

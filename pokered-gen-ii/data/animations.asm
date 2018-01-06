@@ -204,9 +204,9 @@ AttackAnimationPointers:
 	dw ZigZagScreenAnim
 	dw CrunchAnim
 	dw TwisterAnim
-	;dw FaintAttackAnim
-	;dw PowderSnowAnim
-	;dw SparkAnim
+	dw FaintAttackAnim
+	dw PowderSnowAnim
+	dw SparkAnim
 	;dw SynthesisAnim
 	;dw MilkDrinkAnim
 
